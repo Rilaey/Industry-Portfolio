@@ -14,3 +14,12 @@
   font-size: 32px;
   font-style: italic;
 }
+
+.social-logo {
+  height: 4vh;
+  margin: 30px;
+}
+
+.social-logo:hover {
+  height: 7vh;
+}
