@@ -11,11 +11,6 @@ export default function Home() {
   return (
     <div
       style={{
-        backgroundImage: `url(${DarkBgImage})`,
-        height: "100vh",
-        width: "100%",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
