@@ -91,8 +91,9 @@ export default function Projects() {
           <h1
             className="project-header"
             style={{
-              textDecoration: "underline",
-              margin: "25px auto"
+              // textDecoration: "underline",
+              padding: "25px auto",
+              fontSize: "48px"
             }}
           >
             Projects
