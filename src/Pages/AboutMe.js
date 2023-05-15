@@ -14,6 +14,9 @@ export default function AboutMe() {
         >
           ←
         </a>
+        <div className="flex text-center items-center justify-center">
+          <h1 className="contact-header">About Me</h1>
+        </div>
       </div>
       <div className="about-layout flex align-center text-center items-center justify-center mx-10">
         <div>
