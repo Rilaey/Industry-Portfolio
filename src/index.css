@@ -76,6 +76,10 @@ body {
   top: 80px;
 }
 
+.contact-header {
+  margin: 2%;
+}
+
 @media screen and (max-width: 820px) {
   .about-layout {
     display: flex;
