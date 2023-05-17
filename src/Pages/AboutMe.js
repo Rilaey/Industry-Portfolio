@@ -2,6 +2,7 @@ import React from "react";
 import ProfilePic from "../images/profile-pic.jpeg";
 import EducationCard from "../components/EducationCard";
 import UcfLogo from "../images/ucf-logo.png";
+import NebulaLogo from '../images/nss_light.jpg'
 
 export default function AboutMe() {
   return (
@@ -68,7 +69,7 @@ export default function AboutMe() {
         </div>
         <div className="m-5">
           <EducationCard
-            photo={UcfLogo}
+            photo={NebulaLogo}
             altText="Nebula Software Solutions"
             title="Nebula Software Solutions"
             time="June 2022 - December 2022"

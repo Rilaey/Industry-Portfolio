@@ -11,9 +11,7 @@ export default function Home() {
   return (
     <div className="home-layout flex flex-col items-center text-center justify-center">
       <div>
-        <h1 className="home-header" style={{
-          textDecoration: "underline"
-        }}>Riley Newhart</h1>
+        <h1 className="home-header">Riley Newhart</h1>
         <h1 className="home-header">Full Stack Developer</h1>
       </div>
       <div>
@@ -22,13 +20,13 @@ export default function Home() {
             className="btn btn-outline m-4"
             onClick={() => navigate("/AboutMe")}
           >
-            About Me
+            About
           </button>
           <button
             className="btn btn-outline m-4"
             onClick={() => navigate("/ContactMe")}
           >
-            Contact Me
+            Contact
           </button>
           <button
             className="btn btn-outline m-4"
