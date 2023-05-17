@@ -53,14 +53,14 @@ export default function ContactMe() {
                   className="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6"
                   style={{
                     marginTop: "-100px",
-                    background: "hsla(0, 0%, 100%, 0.8)",
+                    background: "#616065",
                     backdropFilter: "blur(30px)"
                   }}
                 >
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 mb-12">
                     <div className="mb-12 lg:mb-0 text-center mx-auto">
                       <svg
-                        className="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                        className="w-8 h-8 text-red-500 mb-6 mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 496 512"
                       >
@@ -74,7 +74,7 @@ export default function ContactMe() {
                     </div>
                     <div className="mb-12 lg:mb-0 text-center mx-auto">
                       <svg
-                        className="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                        className="w-8 h-8 text-red-500 mb-6 mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 384 512"
                       >
@@ -87,7 +87,7 @@ export default function ContactMe() {
                     </div>
                     <div className="mb-6 md:mb-0 text-center mx-auto">
                       <svg
-                        className="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                        className="w-8 h-8 text-red-500 mb-6 mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
                       >
@@ -100,7 +100,7 @@ export default function ContactMe() {
                     </div>
                     <div className="text-center mx-auto">
                       <svg
-                        className="w-8 h-8 text-blue-600 mb-6 mx-auto"
+                        className="w-8 h-8 text-red-500 mb-6 mx-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 576 512"
                       >
@@ -191,7 +191,7 @@ export default function ContactMe() {
                                 w-full
                                 px-6
                                 py-2.5
-                                bg-blue-600
+                                bg-red-500
                                 text-white
                                 font-medium
                                 text-xs

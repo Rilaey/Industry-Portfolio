@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
   background-image: url('./images/dark-bg-img.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: repeat;
   min-height: 100vh;
-  max-width: 100%;
-  overflow-x: hidden;
+  width: 100%;
+  /* overflow-x: hidden; */
 }
 
 .home-buttons > button {
@@ -45,9 +45,9 @@ body {
 }
 
 .about-layout {
-  position: relative;
-  top: 130px;
-  padding: 2%;
+  /* position: relative;
+  top: 100px; */
+  padding: 1%;
   border-radius: 50px;
   /* border: 2px solid red; */
   background-color: #616065;
@@ -94,5 +94,20 @@ body {
   .profile-picture {
     width: 80%;
     height: 25vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .more-info-pictures {
+    /* padding: 30%; */
   }
 }
