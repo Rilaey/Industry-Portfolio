@@ -44,6 +44,10 @@ html {
   width: 100%;
 }
 
+.home-btn {
+  color: #fff;
+}
+
 .home-btn:hover {
   background-color: red;
 }
@@ -77,6 +81,7 @@ html {
   height: 200px;
   /* object-fit:cover; */
   object-position: 50% 50%;
+  border-radius: 50px;
 }
 
 .project-card {
@@ -124,6 +129,12 @@ html {
 
 @media screen and (max-width: 600px) {
   .more-info-pictures {
-    /* padding: 30%; */
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .more-info-pictures {
+    border-radius: 50px;
   }
 }
