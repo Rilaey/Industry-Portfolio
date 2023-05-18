@@ -14,6 +14,7 @@ export default function AboutMe() {
             fontSize: "38px",
             margin: "10px"
           }}
+          className="back-btn"
         >
           ←
         </a>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import '../index.css'
+import "../index.css";
 import GitHubLogo from "../images/github-logo.png";
 import LinkedInLogo from "../images/linkedin-logo.png";
 import TwitterLogo from "../images/twitter-white-logo.png";
@@ -17,29 +17,28 @@ export default function Home() {
       <div>
         <div className="home-buttons flex flex-wrap m-6">
           <button
-            className="btn btn-outline m-4"
+            className="home-btn btn btn-outline m-4"
             onClick={() => navigate("/AboutMe")}
           >
             About
           </button>
           <button
-            className="btn btn-outline m-4"
+            className="home-btn btn btn-outline m-4"
             onClick={() => navigate("/ContactMe")}
           >
             Contact
           </button>
           <button
-            className="btn btn-outline m-4"
+            className="home-btn btn btn-outline m-4"
             onClick={() => navigate("/Projects")}
           >
             Projects
           </button>
-          {/* <button
-            className="btn btn-outline m-4"
-            onClick={() => navigate("/Resume")}
-          >
-            Resume
-          </button> */}
+          <button className="home-btn btn btn-outline m-4">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vR2qssyUn35cpjzlGy4CGBss3cZZfBYN3SNfD59Ta1zoTd_DT9HFMWWnw_aHPN0h6BI7_jVi8xUDzG5/pub">
+              Resume
+            </a>
+          </button>
         </div>
       </div>
 

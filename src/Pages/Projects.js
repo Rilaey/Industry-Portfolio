@@ -82,6 +82,7 @@ export default function Projects() {
             fontSize: "38px",
             margin: "10px"
           }}
+          className="back-btn"
         >
           ←
         </a>
