@@ -5,7 +5,7 @@ import BackyardSportsLogo from "../images/BackyardSportsLogo1.png";
 import ParkFinderLogo from "../images/ParkFinderLogo.png";
 import LocalWeatherLogo from "../images/weather-logo.jpg";
 import TextEditorLogo from "../images/text-edit.jpeg";
-import PasswordLogo from "../images/password.jpg";
+import ChatLogo from "../images/chat-logo.avif";
 
 export default function Projects() {
   const [projects, setProjects] = useState([
@@ -62,14 +62,14 @@ export default function Projects() {
       application: "https://rileys-text-editor.herokuapp.com/"
     },
     {
-      image: PasswordLogo,
-      altText: "password logo",
-      title: "Password Generator",
+      image: ChatLogo,
+      altText: "Chat rooms logo",
+      title: "React Chat Rooms",
       description:
-        "Generate a random secure password spanning all the way up to 128 characters, which could include lower / upper case letters, numbers, and special characters! Easily copy the generated password with a built in copy button.",
-      tools: "HTML, CSS, JavaScript",
-      github: "https://github.com/Rilaey/Password-Protector",
-      application: "https://rilaey.github.io/Password-Protector/"
+        "The Real-Time Chat App is a modern and interactive messaging application built using React, Node.js, and Socket.io. It allows users to communicate with each other in real-time, making it perfect for both personal and professional use.",
+      tools: "React, Node, Express, Socket.io",
+      github: "https://github.com/Rilaey/Chat-Rooms",
+      application: "https://react-chat-rooms.herokuapp.com/"
     }
   ]);
 

@@ -5,14 +5,14 @@ import GitHubLogo from "../images/github-logo.png";
 import LinkedInLogo from "../images/linkedin-logo.png";
 import TwitterLogo from "../images/twitter-white-logo.png";
 
-export default function Home() {
+export default function Home({ fullName, jobTitle, githubLink, linkedInLink, twitterLink}) {
   const navigate = useNavigate();
 
   return (
     <div className="home-layout flex flex-col items-center text-center justify-center">
       <div>
-        <h1 className="home-header">Riley Newhart</h1>
-        <h1 className="home-header">Full Stack Developer</h1>
+        <h1 className="home-header">{fullName}</h1>
+        <h1 className="home-header">{jobTitle}</h1>
       </div>
       <div>
         <div className="home-buttons flex flex-wrap m-6">
@@ -44,12 +44,12 @@ export default function Home() {
 
       <div className="flex align-center">
         <div>
-          <a href="https://github.com/Rilaey">
+          <a href={githubLink}>
             <img src={GitHubLogo} alt="github logo" className="social-logo" />
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/riley-newhart-667b43128/">
+          <a href={linkedInLink}>
             <img
               src={LinkedInLogo}
               alt="linkedin logo"
@@ -58,7 +58,7 @@ export default function Home() {
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/codingWithRiley">
+          <a href={twitterLink}>
             <img src={TwitterLogo} alt="twitter logo" className="social-logo" />
           </a>
         </div>
