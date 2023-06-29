@@ -44,12 +44,12 @@ export default function Projects() {
     {
       image: LocalWeatherLogo,
       altText: "local weather logo",
-      title: "Local Weather",
+      title: "Weather Forecast",
       description:
-        "Local Weather is a user-friendly and intuitive application designed to provide you with up-to-date weather information at your fingertips. With its sleek and modern interface, the app offers a comprehensive overview of the current weather conditions in your desired location, enabling you to make informed decisions and plan your activities accordingly.",
-      tools: "Vite, DaisyUI, TailwindCSS, CSS, OpenWeatherAPI",
-      github: "https://github.com/Rilaey/Local-Weather",
-      application: "https://rilaey.github.io/Local-Weather/"
+        "Local Weather is a user-friendly and intuitive application designed to provide you with up-to-date weather information in a 5 day forecast at your fingertips. With its sleek and modern interface, the app offers a comprehensive overview of the current weather conditions in your desired location, enabling you to make informed decisions and plan your activities accordingly.",
+      tools: "Vite, DaisyUI, TailwindCSS, OpenWeatherAPI",
+      github: "https://github.com/Rilaey/cool-weather",
+      application: "https://rilaey.github.io/cool-weather/"
     },
     {
       image: TextEditorLogo,
