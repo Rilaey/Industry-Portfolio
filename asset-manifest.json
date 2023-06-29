@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c28091.css",
-    "main.js": "/static/js/main.bb762e88.js",
+    "main.js": "/static/js/main.2d2b017c.js",
     "static/media/weather-logo.jpg": "/static/media/weather-logo.e1d8ad9a31cb01a9e604.jpg",
     "static/media/BackyardSportsLogo1.png": "/static/media/BackyardSportsLogo1.7a69f0bb7c46443dc9bf.png",
     "static/media/dark-bg-img.jpg": "/static/media/dark-bg-img.51b570911f52bd622e74.jpg",
@@ -14,10 +14,10 @@
     "static/media/chat-logo.avif": "/static/media/chat-logo.b10e60792e361f56cc6c.avif",
     "index.html": "/index.html",
     "main.e6c28091.css.map": "/static/css/main.e6c28091.css.map",
-    "main.bb762e88.js.map": "/static/js/main.bb762e88.js.map"
+    "main.2d2b017c.js.map": "/static/js/main.2d2b017c.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c28091.css",
-    "static/js/main.bb762e88.js"
+    "static/js/main.2d2b017c.js"
   ]
 }
