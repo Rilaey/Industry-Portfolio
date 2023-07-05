@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../index.css";
 import GitHubLogo from "../images/github-logo.png";
 import LinkedInLogo from "../images/linkedin-logo.png";
